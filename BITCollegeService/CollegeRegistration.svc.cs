@@ -121,7 +121,7 @@ namespace BITCollegeService
                 return 0;                                             
                                 
             }
-            catch
+            catch(Exception e)
             {
                 return -300;
             }

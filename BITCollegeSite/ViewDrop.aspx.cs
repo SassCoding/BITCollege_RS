@@ -41,7 +41,7 @@ namespace BITCollegeSite
         }
 
         /// <summary>
-        /// Handles the drop course link click event.Need to fix!!
+        /// Handles the drop course link click event.
         /// </summary>
         protected void lnkbtnDropCourse_Click(object sender, EventArgs e)
         {

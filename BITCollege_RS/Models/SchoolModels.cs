@@ -536,7 +536,7 @@ namespace BITCollege_RS.Models
         { 
             get
             {
-                return String.Format("{0}, {1}", FirstName, LastName);
+                return String.Format("{0} {1}", FirstName, LastName);
             }
         }
 

@@ -14,6 +14,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BITCollegeSite", "BITColleg
 		{3C06F441-DA56-4B93-A8FA-7DF9256C841C} = {3C06F441-DA56-4B93-A8FA-7DF9256C841C}
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaskedLabel", "MaskedLabel\MaskedLabel.csproj", "{049F1B57-22DE-42E2-A648-B64B82BF6DF5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BITCollegeWindows", "BITCollegeWindows\BITCollegeWindows.csproj", "{FF81B62E-1027-48A0-91EB-4568D7230E7B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3C06F441-DA56-4B93-A8FA-7DF9256C841C} = {3C06F441-DA56-4B93-A8FA-7DF9256C841C}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,6 +43,14 @@ Global
 		{D9FD22F1-A01F-4325-AA83-9F883B0AFD34}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D9FD22F1-A01F-4325-AA83-9F883B0AFD34}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D9FD22F1-A01F-4325-AA83-9F883B0AFD34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{049F1B57-22DE-42E2-A648-B64B82BF6DF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{049F1B57-22DE-42E2-A648-B64B82BF6DF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{049F1B57-22DE-42E2-A648-B64B82BF6DF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{049F1B57-22DE-42E2-A648-B64B82BF6DF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF81B62E-1027-48A0-91EB-4568D7230E7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF81B62E-1027-48A0-91EB-4568D7230E7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF81B62E-1027-48A0-91EB-4568D7230E7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF81B62E-1027-48A0-91EB-4568D7230E7B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
